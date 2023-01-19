@@ -1,28 +1,15 @@
 package abstraction;
 
-public class SwiftDzire extends Car {
+public class SwiftDzire extends Swift {
 	
-	void setData(String engine, int price) {
-		this.engine=engine;
-		this.price=price;
+	void alloyWheels() {
+		System.out.println("Swift Dzire has Alloy Wheels");
+	
 		
 	}
 	
-	void displayInfo() {
-		System.out.println(price+" "+engine);
-	}
+	
+	
 
-	void dashboard() {
-		
-		System.out.println("SwiftDzire has : Ac, Music System,screen");
-		
-	}
 	
-	void saferyFeatures() {
-		System.out.println("SwiftDzire : AirBags, child Lock");
-	}
-	
-	void buildQuality() {
-		System.out.println("Swift Dzire : 3.5 Start rated");
-	}
 }

@@ -14,6 +14,7 @@ public abstract class Car {
 	abstract void dashboard();
 	abstract void saferyFeatures();
 	abstract void buildQuality();
+	abstract void alloyWheels();
 
 	
 	
